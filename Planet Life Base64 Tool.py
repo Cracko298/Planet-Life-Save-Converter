@@ -7,8 +7,10 @@ today = date.today()
 textfile_exist = os.path.exists('Input_Base64.txt')
 data = "Q3JlYXRlZCBCeTogQ3JhY2tvMjk4"
 dat_check = "VGhlIFNjcmlwdCBXYXMgVGFtcGVyZWQgV2l0aC4gUGxlYXNlIEdldCBUaGUgT3JpZ2luYWwgU2NyaXB0IGF0ICdodHRwczovL2dpdGh1Yi5jb20vQ3JhY2tvMjk4L1BsYW5ldC1MaWZlLUNoZWF0Jy4="
-data0 = base64.b64decode(data)
-dat_check_success = base64.b64decode(dat_check)
+data1 = base64.b64decode(data)
+data0 = data1.decode('utf-8')
+dat_check_succes = base64.b64decode(dat_check)
+dat_check_success = dat_check_succes.decode('utf-8')
 num0 = 2 ; num1 = -1 ; num2 = dat_check
 
 def Start():
@@ -135,17 +137,10 @@ def if_text():
         exit()
 
 if data != "Q3JlYXRlZCBCeTogQ3JhY2tvMjk4":
-    print("The Application Encountered An Error While Starting...")
-    sleep(5)
+    os.system('clear')
+    print(dat_check_success)
+    print(" ")
+    input("Press The 'Enter' Key To Exit.")
     exit()
 
 if_text()
-
-# bytes1 = base64toStr2.decode('ascii')
-# file0 = open('converted_save.planet', 'x')
-# file0.close()
-# decl_bytes0 = base64toStr1.encode('utf-8')
-
-
-
-# decode('ascii')
