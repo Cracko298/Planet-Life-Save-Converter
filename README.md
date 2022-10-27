@@ -7,4 +7,4 @@
 - Debug Data in-case you like that Stuff?
 
 # Download:
-- [Version 1.1](https://github.com/Cracko298/Planet-Life-Save-Converter/releases/tag/v1.1-alpha-1)
+- [Version 1.2](https://github.com/Cracko298/Planet-Life-Save-Converter/releases/tag/v1.2-alpha-1)
