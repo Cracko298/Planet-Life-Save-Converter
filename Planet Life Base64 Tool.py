@@ -69,7 +69,7 @@ def Start():
                 sleep(1)
                 os.system('clear')
                 print(" ")
-                print("The Script Was Successful At Encrypting To Base64 Key.")
+                print("The Script Was Successful At Encrypting To A Base64 Key.")
                 print(" ")
                 input("Press the 'Enter' To Continue To The Menu.")
                 Start()
