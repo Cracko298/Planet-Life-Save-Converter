@@ -8,3 +8,6 @@
 
 # Download:
 - [Version 1.2](https://github.com/Cracko298/Planet-Life-Save-Converter/releases/tag/v1.2-alpha-1)
+
+# Screenshots:
+![image](https://user-images.githubusercontent.com/78656905/198165272-825d418c-e334-4499-83fd-8fd4c5c54fff.png)
